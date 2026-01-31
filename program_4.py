@@ -10,6 +10,9 @@ def temp_conversion(celsius):
     fahrenheit = 0.0
     ######################
     # WRITE YOUR CODE HERE
+    celsius=float(input("Enter temperature in Celsius: "))
+    fahrenheit = (9/5) * celsius + 32
+    print(f"{celsius} degrees Celsius is = to {fahrenheit} degrees Fahrenheit.")
     ######################    
 
 
